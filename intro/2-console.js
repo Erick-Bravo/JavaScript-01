@@ -7,18 +7,16 @@ There are many many ways to debug, but using javascripts console.log to
 see what our code is doing is the most basic (and probably the most used)
 */ 
 
-// First, uncomment the console.logs
-// click on each console.log and use: command + /
-// for PC: window key + /
+//Here are our logs
 
-// console.log("Hi there!");
-// console.log("Look, I'm a programmer!")
+console.log("Hi there!");
+console.log("Look, I'm a programmer!");
 
 //Now, In the terminal run: node intro/2-console.js
-//See that the terminal outputted what was in the console.logs
+//See that the terminal outputs what was in our logs
 //To get more familiar with paths in the terminal, I want you to go back
-//in there and ask the terminal if it knows what file you are reffering to
-//by using the "tab" button.
+//in there and ask the terminal if it can find the folder and file for you
+//by using the "tab" button. (steps below)
 //While you do this, please look to the file structure on your left
 // and see if you can understand what is going on here. 
 
@@ -26,11 +24,13 @@ see what our code is doing is the most basic (and probably the most used)
 //If you hit the 'tab' button after you typed node i, it should 
 //finish the rest for you. It should now be: node intro/
 //Now, add the number 2 and hit tab again. It should finish out the rest.
-//I encourage you to use this feature while searching through file structures. 
+//I encourage you to use this feature to reacha file anytime. 
 
-//Now, Id liek you to write at least 10 console.logs with whatever your heart desires.
-//They can be numbers, or a message like what we did.
-//Then run the command again, to see your output.
+//Now, Id like you to write at least 10 logs with whatever your heart desires.
+//This is for muscle memory.
+//They can be numbers, or a message in quotes like what we have above.
+//Then run the command again to see your output.
 
 
-//^^write at least 10 console.logs;
+
+//^^write at least 10 logs above this line;
