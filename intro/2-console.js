@@ -2,7 +2,7 @@
 To do this, we need to make our terminal show us what our files 
 are outputting.
 Debugging it arguably the most relavent in terms of what programmers have
-to know to create fancy programs for our clients. We debug often.
+to do to create fancy programs for our clients. We debug often.
 There are many many ways to debug, but using javascripts console.log to
 see what our code is doing is the most basic (and probably the most used)
 */ 

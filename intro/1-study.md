@@ -28,7 +28,7 @@ Welcome to your lovely console ...I mean terminal.<br />
 
 Like I said, we wll be using it to run tests, as well as help you `debug` your code.
 
-There is so much you can do with your terminal. We can create folders and files (known as directories), we can delete what we created, we use it to "push" up code to source control for our clients multi million dollar website, but for the sake of simplicity, we will continue on ...for now. 
+There is so much you can do with your terminal. We can create folders and files (known as directories), we can delete what we created, we use it to "push" up code to version control for our clients multi million dollar website, but for the sake of simplicity, we will continue on ...for now. 
 
 Here are the basic commands you will be running. You can copy and paste, but I highley encourage you to type them out in these early stages of your development. 
 

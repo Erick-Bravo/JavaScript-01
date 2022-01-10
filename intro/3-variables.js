@@ -4,9 +4,9 @@
 
 //Here are 3 different ways to write variables
 
-var randomVariable1 = "I am the var variable";
+var randomVariable1 = "I am the var variable, everyone hates me";
 let randomVariable2 = 10;
-const randomVariable3 = "I am the const variable";
+const randomVariable3 = "I am the const variable, everyone loves me";
 
 console.log(randomVariable1);
 console.log(randomVariable2);
@@ -21,8 +21,9 @@ console.log(randomVariable3);
 
 //Essentially, var and let work the same but no one really uses var anymore
 //You will only be using let and const.
-//You will also see the difference between the two in the future. 
-//but for now, write some variables of your own below!
+//You will also see the difference between the two soon. 
+//but for now, write some creative variables with equally creative 
+//values of your own below!
 //and don't forget you need to log them to be able to see the output!
 
 
