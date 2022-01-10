@@ -52,8 +52,8 @@ const interpolatedSupreme = () => {
 };
 
 //If you would like, check to see the output of the example functions.
-//Last trick before you start writing your functions and logging them.
-//Highlight these example logs and hit "command + /"
+//Last trick before you start writing and logging your own functions.
+//Highlight these example logs and hit "command + /" (pc: windows + /)
 //You just commented out these logs and will no longer see the output in the terminal.
 //You can toggle them on and off all day.
 //Showing you this so your terminal isnt cluttered with your own example data.
@@ -64,4 +64,6 @@ console.log(ericksAmazingMessage());
 console.log(interpolatedSupreme());
 
 //Now get to coding your functions!
+//Minimum of 10
+//but do as many as youd like 
 
