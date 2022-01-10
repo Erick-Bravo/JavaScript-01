@@ -49,6 +49,7 @@ Now, go ahead and run the next command `npm run test`
 - Everything should fail, hooray!
 - Check out our package.json again and see the "script" to run our tests. (line 7)
 - Now, I have it so it makes sense for us contextually, but if you'd like, you can literally change `"test"` to `"potato"` and run the command `npm run potato`. This will work. I'll let you decide what you'd like to do. 
+- Note: Don't expect to run the test right away. There is some study material you need to practice first, then i'll direct you to your actual test where you then .
 
 Now you may be thinking, "woah Erick, you wrote everything in the package.json file? What a beast." And to that I say, What are you crazy!?!
 Absolutely bonkers, aren't you? <br />

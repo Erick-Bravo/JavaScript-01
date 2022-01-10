@@ -12,7 +12,8 @@ see what our code is doing is the most basic (and probably the most used)
 console.log("Hi there!");
 console.log("Look, I'm a programmer!");
 
-//Now, In the terminal run: node intro/2-console.js
+//Now, we can only see a single files output at a time so,
+//In the terminal run: node intro/2-console.js
 //See that the terminal outputs what was in our logs
 //To get more familiar with paths in the terminal, I want you to go back
 //in there and ask the terminal if it can find the folder and file for you
@@ -23,8 +24,8 @@ console.log("Look, I'm a programmer!");
 //Go to your terminal and type: node i 'tab'
 //If you hit the 'tab' button after you typed node i, it should 
 //finish the rest for you. It should now be: node intro/
-//Now, add the number 2 and hit tab again. It should finish out the rest.
-//I encourage you to use this feature to reacha file anytime. 
+//Now, add the number 2 and hit tab again. It should finish out the rest of the file name.
+//I encourage you to use this feature to reach a file anytime. 
 
 //Now, Id like you to write at least 10 logs with whatever your heart desires.
 //This is for muscle memory.
