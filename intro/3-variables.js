@@ -28,6 +28,10 @@ console.log(randomVariable3);
 //values of your own below!
 //and don't forget you need to log them to be able to see the output!
 
+/* ------------Your code between here ---------*/
+
+
+/* ------------Your code between here ---------*/
 
 
 //Note: Notice how the variables are written? first letter is lowercase and
