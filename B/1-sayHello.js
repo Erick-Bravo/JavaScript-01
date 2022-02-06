@@ -1,8 +1,8 @@
 //Exam
-//If you have not gone through the "Learning" folder, you are not ready for this exam.
+//If you have not gone through the "A" folder, you are not ready for this exam.
 
 //READY?
-//Try your hardest to not look at the Learning material.
+//Try your hardest to not look at the A material.
 //Only look when completely stuck.
 //Use that noodle.
 
