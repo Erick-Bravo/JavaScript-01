@@ -19,14 +19,14 @@ console.log(randomVariable3);
 /* 
 tell node to run this file
 Meaning, go into your terminal and run that command like before
-Hint: this time its: node intro/3-variables.js
+Hint: this time its: node A/3-variables.js
 Understand how to do this now? I am going to assume yes from now on. 
 
 You should see the terminal output the values of those variables
 
 Essentially, 'var' and 'let' work the same but no one really uses var anymore.
 You will only be using 'let' and 'const'.
-You will also see the difference between the two soon. 
+You will also see the difference between the two in the future. 
 but for now, write some creative variables with equally creative 
 values of your own below!
 and don't forget you need to log them to be able to see the output!
