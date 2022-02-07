@@ -28,6 +28,9 @@ const functionWithArgsTwo = (num1, num2) => {
 
 functionWithArgsTwo(5, 24)
 
+
+
+
 //return 
 //Problem 3
 //Problem 4
