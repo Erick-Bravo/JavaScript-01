@@ -1,5 +1,5 @@
 const assert = require("chai").assert;
-const { interpolatedString, messageToTheScammed, messageWithArgs }  = require("../Exam/2-interpolation.js");
+const { interpolatedString, messageToTheScammed, messageWithArgs }  = require("../B/2-interpolation.js");
 
 describe("2-interpolation.js", () => {
     describe("interpolatedString()", () => {

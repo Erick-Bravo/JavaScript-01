@@ -40,18 +40,24 @@ const arrowFunction = () => {
     return "I am an Arrow Function";
 };
 
-//Oh, what's this below? I new function? Nope!
-//It's still an Arrow function, but showing it's neat trick if the logic is small enough.
-//As you can see with the functions above, functions need a "return" to return the data.
-//However, in this case since all the logic is on one line, it "implies" a return.
-//This is called an "implicit-return". You will eventually see this.
-//You will be writing regular arrow functions like the one above, so don't worry if
-//it doesnt make sense to you.
+/*
+Oh, what's this below? I new function? Nope!
+It's still an Arrow function, but showing it's neat trick if the logic is small enough.
+As you can see with the functions above, functions need a "return" to return the data.
+However, in this case since all the logic is on one line, it "implies" a return.
+This is called an "implicit-return". You will eventually see this.
+You will be writing regular arrow functions like the one above, so don't worry if
+it doesnt make sense to you.
+*/
+
 const arrowFunction2 = () => "I am still an Arrow Function";
 
-//Just like with variables, logs can allow us to see what the data is.
-//Notice the parenthesis at the end of the functions '()'
-//This is how we "call" a function. Without them, the function will not trigger.
+/*
+Just like with variables, logs can allow us to see what the data is.
+Notice the parenthesis at the end of the functions '()'
+This is how we "call" a function. Without them, the function will not trigger.
+*/
+
 console.log(functionDeclaration());
 console.log(functionExpression());
 console.log(arrowFunction());
