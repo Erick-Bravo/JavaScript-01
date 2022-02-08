@@ -43,14 +43,15 @@ They can be given any name inside the parenthesis just like variables.
 </br>
 <h3>Strings vs Numbers</h3>
 
-Strings are text or number in quotoations.
-Numbers are just numbers
-5 does not equate to "5" in code logic
+Strings are text in quotations. </br>
+A number in quotations is still a string.</br>
+Numbers are just numbers.</br>
+5 does not equate to "5" in code logic.
 </br>
 
 <h3>Interpolated Strings</h3>
 
-Interpolated string are still strings but dynmaic.
+Interpolated strings are still strings but dynmaic.
 Using backticks and ${ }, you can toss values inside a message to display data inside that message.
 </br>
 
