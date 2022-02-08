@@ -3,7 +3,7 @@ Functions
 
 This is very important to understand. 
 Functions are what makes the coding world go round. 
-They are what tells your computer what to do and how to do it. 
+They are what handles data and logic. 
 We, as coders, create these functions for many different reasons.
 It can be as major as running a heavy algorythm to calculate data points,
 or as simple as directing a user to a new page once they click on a button.
@@ -16,17 +16,18 @@ Just like before, here are 3 different ways to write a function.
 But unlike before, all 3 of these functions act the same way.
 The "Arrow-function" is the new convention, but it is still important to know what
 the others look like.
-You will see the old conventions in "legacy" code, or in tutorials that were recorded a while back.
+I show you both old and new ways because You will see the old conventions in "legacy" code, 
+or in tutorials that were recorded a while back.
 When I come across a tutorial with the old way of writing functions, I just convert them to
 an arrow-function when I type them out.
 For this file, we will only be "returning" simple data.
 
-Note: The function names can be anything, just like variables.
+Note: The function names can be anything, just like variables, but should also follow good "nameing-convention"
 */
 
 
 //Function declaration
-function functionDeclaration() {
+function FunctionDeclaration() {
     return "I am a Function Declaration";
 };
 

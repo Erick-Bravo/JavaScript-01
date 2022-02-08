@@ -7,7 +7,7 @@ the different options bellow.
 The purpose here is to get some muscle memory writing functions while getting exposed to some new concepts.
 
 ----Option 1----: 
-Return a string - 
+Return a "string"
 A "string" is just text inside quotations 
 (like what we have already been doing)
 We will be referring to these as strings from now on.
@@ -57,7 +57,7 @@ const ericksAmazingMessage = () => {
 /*
 Interpolated String: Advanced
 Note that you can write variables in functions.
-This is actually how we all use functions.
+This is actually closer to how we all use functions.
 Just know that the variables inside a function are only accessable to THAT function
 If you wrote the variable on the "global" level (outside of this function),
 Then all the other functions can have access to the variable. 
@@ -96,8 +96,8 @@ console.log(interpolatedSupreme());
 //Now get to coding your functions!
 //Shoot for 10
 //but do as many as youd like 
+//Change between the options above
 
-/* ------------Your code between here ---------*/
+/* ------------Your code below here ---------*/
 
 
-/* ------------Your code between here ---------*/

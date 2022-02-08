@@ -1,5 +1,5 @@
 const assert = require("chai").assert;
-const { functionWithArgs, functionWithArgsTwo}  = require("../Exam/3-arguments.js");
+const { functionWithArgs }  = require("../Exam/3-arguments.js");
 
 describe("3-arguments.js", () => {
     describe("interpolatedString()", () => {
