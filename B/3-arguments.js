@@ -1,36 +1,66 @@
 /*
 Function with Arguments
 
-For the first three problems, you will just write in the arguments into the returns
-Its like the last interpolatetion problem but backwards.
-Then, you will write out the function completely.
+For the first three problems, you will write in the arguments into the returns.
+For the last 3, you will write in both the arguments and write out the interpolation.
+These intepolations won't have any "gotchyas".
+But the return still need to be exact
+Good luck
 */
 
 
 //Problem 1
-//Modify the return so is looks like this: return bigger number > smaller number
-// smaller numner < bigger number will also work, it just needs to be a true statement
+//Modify the return so is looks like this: return bigger number > smaller number.
+//smaller number < bigger number will also work, it just needs to be a true statement.
 
-const functionWithArgs = (num1, num2) => {
-    return ;
+const biggerOrSmaller = (num1, num2) => {
+    return num2 > num1;
 };
 
-console.log(functionWithArgs(5, 24));
+biggerOrSmaller(5, 24);
+
+
+//Problem 2
+//use any math symbols to get to 100.
+//In JavaScript, you don't need to use all of your arguments.
+//Also, an argument can be used more than once.
+
+const doTheMath = (num1, num2, num3, num4) => {
+    return num1 * num3 * num4;
+};
+
+doTheMath(5, 4, 10, 2);
 
 
 
-
-
-//return 
 //Problem 3
+//use any math symbols to get to -50
+//As above, so below
+//....meaning same rules apply.
+
+const doMoreMath = (num1, num2, num3, num4, num5) => {
+    return num5 * num5 * num2 * num1;
+};
+
+doMoreMath(-1, 2, 3, 4, 5);
 
 
 //Problem 4
+//return "Yes, i'm on problem 4"
+
+const problemFour = (message, num, yes) => {
+    return `${yes}, ${message} ${num}`
+};
+
+console.log(problemFour("i'm on problem", 4, "Yes"));
+
 //Problem 5
 //Problem 6
 
 
 module.exports = {
-    functionWithArgs,
-    functionWithArgsTwo
+    biggerOrSmaller,
+    doTheMath,
+    doMoreMath,
+    problemFour
 }
