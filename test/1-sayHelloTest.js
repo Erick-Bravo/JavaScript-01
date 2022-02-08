@@ -1,5 +1,5 @@
 const assert = require("chai").assert;
-const { sayHello, sayHelloTwo, returnNumber }  = require("../Exam/1-sayHello.js");
+const { sayHello, sayHelloTwo, returnNumber }  = require("../B/1-sayHello.js");
 
 describe("1-sayHello.js", () => {
     describe("sayHello()", () => {
