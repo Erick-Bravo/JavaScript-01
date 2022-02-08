@@ -1,8 +1,7 @@
 //Function with Arguments
 
-//Here you will write fuctions with arguments
-//Its like the last interpolatetion problem but backwards and writing annoying strings.
-//For the first four problems, you will just write in the arguments in the proper order
+//Its like the last interpolatetion problem but backwards.
+//For the first four problems, you will just write in the arguments into the returns
 //Then, you will write out the function completely.
 
 
@@ -21,15 +20,24 @@ functionWithArgs("strings", "tired", "stupid");
 //Problem 2
 //Same as above
 //Modify the return so is looks like this: return bigger number > smaller number
+// smaller numner < bigger number will also work, it just needs to be a true statement
 
 const functionWithArgsTwo = (num1, num2) => {
     return num2 > num1;
 };
 
-functionWithArgsTwo(5, 24)
+console.log(functionWithArgsTwo(5, 24));
 
-//return 
+
 //Problem 3
+
+
 //Problem 4
 //Problem 5
 //Problem 6
+
+
+module.exports = {
+    functionWithArgs,
+    functionWithArgsTwo
+}
