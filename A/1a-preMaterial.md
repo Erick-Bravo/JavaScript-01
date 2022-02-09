@@ -1,17 +1,17 @@
 <h1>Intro to programming/JavaScript</h1><br />
 
-(Hello this is an md file, aka a MardDown file. Right click the above tab and select "Open Preview")<br />
+(Hello this is an md file, aka a MardDown file. Right click the above tab or file name and select "Open Preview")<br />
 (Do this for all md files to see the intended format)
 
 <br />
-Before we can write any code at all, we need to get you up to speed on the "console", aka your "terminal". <br />
+Before we can write any code at all, we need to get you up to speed on the terminal. <br />
 <br />
 
-Depending on where you are in the internet, it is possible to hear both "terminal" and "console" interchangeably.<br /> 
-For the sake of our absolute sanity, I will be referring to it as the "terminal".<br />
+Depending on where you are in the internet, it is has multiple names: "terminal", "console" or "command line".<br /> 
+For the sake of our absolute sanity, we will be referring to it as the "terminal".<br />
 
 
-You will be using this terminal to run your tests and ultimately see if you passed, all here using VSCode. <br />
+You will be using this terminal to debug your code and run your tests ultimately see if you passed, all here using VSCode. <br />
 
 VSCode has a decent and convenient terminal, just know that it is also possible to run commands in your computers built-in terminal. <br />
  (Given that you have led it to the proper files)
@@ -35,16 +35,15 @@ PC just reads out of bit more info
 
 Welcome to your lovely console ...I mean terminal.<br />
 
-Like I said, we wll be using it to run tests, as well as help you `debug` your code.
 
-There is so much you can do with your terminal. We can create folders and files (known as directories), we can delete what we created, we use it to "push" up code to version control for our clients multi-million dollar website, but for the sake of simplicity, we will continue on for now. 
+There is so much you can do with your it. We can create folders and files (known as directories), we can delete what we created, we use it to "push" up code to version control for our clients multi-million dollar website, but for the sake of simplicity, we will only use it to debug and test, as mentioned above. 
 
 Here are the basic commands you will be running. You can copy and paste, but I highley encourage you to type them out in these early stages of your development. 
 
 ```
 npm install
 npm run test
-node /randomFolder/randomFile.js
+node randomFolder/randomFile.js
 ```
 <h2>Step 1</h2>
 
@@ -59,16 +58,15 @@ necessary tools that I pulled in (that other people created) to run this curricu
 
 Now, go ahead and run the next command `npm run test`
 - Everything should fail, hooray!
-- Check out the package.json file and see the "script" to run our tests. (line 7)
-- I have it so it makes sense for us contextually, but if you'd like, you can literally change `"test"` to `"potato"` and run the command `npm run potato`. This will work. I'll let you decide what you'd like to do. 
-- Note: Don't expect to run the test right away. There is some study material you need to practice first, then i'll direct you to your actual test when you're' ready.<br />
-- Come to think of it, there is a folder called `test`. You can poke around in it if you're curious as to how tests are written, but please, don't modify anything in this folder.
+- Check out the `package.json` file and see the `"script"` to run our tests. (line 7)
+- I have it so it makes sense for us contextually, but if you'd really like, you can literally change `"test"` to `"potato"` and run the command `npm run potato`. This will work the same. Just remember when I ask you to use `npm run test`, you need to use your own custom command. I'll let you decide what you'd like to do. 
+- Note: Don't expect to run the tests right away. There is some study material you need to practice first, then i'll direct you to your actual test when you're' ready.<br />
+- Come to think of it, there is a folder called `test`. This is NOT your testing folder. You can poke around in it if you're curious as to how tests are written, but please, don't modify anything in this folder.
 - Your actual test will be in the folder named `B`.
 
-Now you may be thinking, "woah Erick, you wrote everything in the package.json file? What a beast." And to that I say, What are you crazy!?!
-Absolutely bonkers, aren't you? <br />
+Now you may be thinking, "woah Erick, you wrote everything in the package.json file? What a beast." And to that I say, What are you crazy!?! <br />
 
-I typed in a command in the terminal to spit out a template for me to modify. Also, after every dependency I installed (another command in the terminal) it gets automatically added in the correct section of our package.json file.
+I typed in a command in the terminal to spit out a template for me to modify. Also, after every dependency I installed (another command in the terminal) it gets automatically added to the correct section of our package.json file.
 
 I hope you understand the power of what the terminal beholds, and that you have yet to uncover its true magic. 
 
