@@ -52,15 +52,33 @@ const problemFour = (message, num, yes) => {
     return `${yes}, ${message} ${num}`
 };
 
-console.log(problemFour("i'm on problem", 4, "Yes"));
+problemFour("i'm on problem", 4, "Yes");
+
 
 //Problem 5
+//return "I now understand arguments ...I am the greatest"
+const messageToYourself = (arg, theGreat, iAM, iNowUnderstand) => {
+    return `${iNowUnderstand} ${arg} ${iAM} ${theGreat}`;
+};
+
+messageToYourself("arguments", "the greatest", "...I am", "I now understand");
+
+
 //Problem 6
+// return "Time to make 6 figures"
+const lastProblem = (num, figs, time) => {
+    return `${time} ${num} ${figs}`;
+};
+
+lastProblem(6, "figures", "Time to make" );
+
 
 
 module.exports = {
     biggerOrSmaller,
     doTheMath,
     doMoreMath,
-    problemFour
+    problemFour,
+    messageToYourself,
+    lastProblem
 }

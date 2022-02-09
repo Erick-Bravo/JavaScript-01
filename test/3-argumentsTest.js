@@ -1,5 +1,11 @@
 const assert = require("chai").assert;
-const { biggerOrSmaller, doTheMath, doMoreMath, problemFour }  = require("../B/3-arguments.js");
+const { 
+    biggerOrSmaller, 
+    doTheMath, 
+    doMoreMath, 
+    problemFour, 
+    messageToYourself, 
+    lastProblem }  = require("../B/3-arguments.js");
 
 describe("3-arguments.js", () => {
     describe("biggerOrSmaller()", () => {
@@ -24,6 +30,18 @@ describe("3-arguments.js", () => {
         it("Should return 'Yes, i'm on problem 4'", () => {
             const result = problemFour("i'm on problem", 4, "Yes");
             assert.equal(result, "Yes, i'm on problem 4");
+        });
+    });
+    describe("messageToYourself()", () => {
+        it("Should return 'I now understand arguments ...I am the greatest'", () => {
+            const result = messageToYourself("arguments", "the greatest", "...I am", "I now understand");
+            assert.equal(result, "I now understand arguments ...I am the greatest");
+        });
+    });
+    describe("lastProblem()", () => {
+        it("Should return 'I now understand arguments ...I am the greatest'", () => {
+            const result = messageToYourself("arguments", "the greatest", "...I am", "I now understand");
+            assert.equal(result, "I now understand arguments ...I am the greatest");
         });
     });
 });
